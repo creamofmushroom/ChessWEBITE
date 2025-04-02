@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('chess-5516446_1920.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 150%;
+  }
+
+  .topnav {
+    overflow: hidden;
+    background-color: rgba(0, 0, 0);
+    flex-wrap: wrap-reverse;
+    padding-left: 1%;
+    margin-left: 15px;
+    margin-top: 15px; 
+    margin-bottom: 5px;
+    padding: 3px;
+  
+    display: flex;
+  }
+    
+  .topnav a {
+    color: orange;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 2px;
+    padding: 10px 10px;
+    font-size: 30px;
+  }
+  
+  .topnav a:hover {
+    color: rgb(255, 255, 255);
+    transition: color 400ms ease-in-out;
+    background-color: darkolivegreen;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 150%;
+  }
+  
+  .topnav a.active:hover {
+    color: rgb(255, 255, 255);
+    }
+  
+  .Navbar {
+    font-size: 10%;
+  }
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  padding-top: 15px;
+  width: 100%;
+  bottom: 0;
+  font-size: 13px;
+}
+
+#Locations {
+  background: linear-gradient(90deg, rgb(217, 217, 233) 0%, rgba(169, 169, 190, 0.705) 35%, rgba(0, 213, 255, 0) 100%);
+  font-size: 20px;
+
+  font-family:sans-serif;
+}
+
+#paddingtext {
+  padding-left: 45px;
+}
